@@ -1,0 +1,11 @@
+.header-top {
+    justify-content: space-evenly;
+    background: rgb(159, 236, 159);
+    display: flex;
+}
+
+.header-logo {
+    font-size: 100px;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
