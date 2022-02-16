@@ -1,0 +1,39 @@
+.fb {
+    background-image: url('../footer-icon/fb.png');
+    background-repeat: no-repeat;  
+    transform: translate(0, 25%);
+    width: 50px;
+    height: 40px;
+  }
+.inst {
+    background-image: url('../footer-icon/inst.png');
+    background-repeat: no-repeat;  
+    transform: translate(0, 25%);
+    width: 50px;
+    height: 40px;
+  }
+.pint {
+    background-image: url('../footer-icon/pint.png');
+    background-repeat: no-repeat;  
+    transform: translate(0, 25%);
+    width: 50px;
+    height: 40px;
+  }
+
+  .footer{
+      background-color: rgb(104, 192, 111);
+      display: flex;
+      line-height: 50px;
+
+  }
+  .footer-info-right{
+    line-height: 50px;
+      display: flex;
+      vertical-align: middle;
+ 
+  }
+  section {
+      max-width: 1440px;
+      margin: 0 auto;
+      font-family: 'Courier New', Courier, monospace;
+  }
