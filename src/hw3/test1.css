@@ -1,0 +1,24 @@
+button{
+width: 100px;
+height: 50px;
+border: 2px solid green;
+border-radius: 50% 20% / 10% 40%;
+color: azure;
+background-color: blueviolet;
+margin: 30px;
+transition: 0.3s;
+
+}
+
+button:hover{
+    background-color: rgb(84, 41, 124);
+}
+
+.counter {
+    margin: 20px 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(140, 173, 235);
+    text-align: center;
+    line-height: 50px;
+}
