@@ -5,7 +5,7 @@ import './main1.css';
 function Main1 () {
 
     return(
-        <section className = 'main'>
+        <section className = 'main1'>
             <div className = 'title'>Title</div>
             <div className = 'article'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br></br>
              Vitae aspernatur mollitia quisquam nobis repellat ducimus. Aliquam qui aspernatur<br></br>

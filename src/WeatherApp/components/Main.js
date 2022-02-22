@@ -16,7 +16,7 @@ const Main = () => {
     const api_call = async e  => {
         e.preventDefault()
     const API_KEY ='0ebc1969d923c75b08ffcee680530531';   
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=Minsk&appid=${API_KEY}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=Mumbai&appid=${API_KEY}`;
     const request = axios.get(url)
     const response = await request//async, await
     setWeather(response.data.main)
@@ -33,7 +33,8 @@ const Main = () => {
             <Header/>
             <Content>
                 <WeatherSearch api_call={api_call}/>
-                <WeatherData/>
+                {weather && <WeatherData weather = {weather}/>}
+               
             </Content>
         </div>
     )
