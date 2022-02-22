@@ -4,7 +4,7 @@ import Header from './Header';
 import axios from 'axios';
 import Content from './Content';
 import WeatherSearch from './WeatherSearch';
-import WeatherData from '../WeatherData';
+import WeatherData from './WeatherData';
 
 
 
