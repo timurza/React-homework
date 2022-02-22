@@ -1,21 +1,27 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/main.scss';
 import Header from './Header';
 import axios from 'axios';
 import Content from './Content';
 import WeatherSearch from './WeatherSearch';
+import WeatherData from '../WeatherData';
 
 
 
 
 const Main = () => {
-    const api_call = async() => {
+    /* const weather = useState[0];
+    const setWeather = useState[1]; */
+    const [weather, setWeather] = useState();
+    const api_call = async e  => {
+        e.preventDefault()
     const API_KEY ='0ebc1969d923c75b08ffcee680530531';   
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${API_KEY}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=Minsk&appid=${API_KEY}`;
     const request = axios.get(url)
     const response = await request//async, await
-    console.log(response)
+    setWeather(response.data.main)
     }
+    console.log(weather)
     
     useEffect(() => {
         api_call()
@@ -26,7 +32,8 @@ const Main = () => {
         <div className = 'main'>
             <Header/>
             <Content>
-                <WeatherSearch/>
+                <WeatherSearch api_call={api_call}/>
+                <WeatherData/>
             </Content>
         </div>
     )
