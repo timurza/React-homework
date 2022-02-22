@@ -1,8 +1,8 @@
 import React from 'react';
-import './main.css';
+import './main1.css';
 
 
-function Main () {
+function Main1 () {
 
     return(
         <section className = 'main'>
@@ -21,4 +21,4 @@ function Main () {
     )
 }
 
-export default Main;
+export default Main1;

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './test2.css';
+ import './test2.scss'; 
 
 const Test2 = (props) => {
     console.log('set state');

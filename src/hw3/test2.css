@@ -1,24 +1,25 @@
-.test2{
-    width: 100px;
-    height: 50px;
-    border: 2px solid green;
-    border-radius: 50% 20% / 10% 40%;
-    color: azure;
-    background-color: rgb(226, 116, 43);
-    margin: 30px;
-    transition: 0.3s;
-    
-    }
+.test2 {
+  width: 100px;
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 50% 20% / 10% 40%;
+  color: azure;
+  background-color: #e2742b;
+  margin: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 
-    .test2:hover{
-        background-color: rgb(124, 74, 41);
-    }
+.test2:hover {
+  background-color: #7c4a29;
+}
 
-    .counter2 {
-        margin: 20px 50px;
-        width: 50px;
-        height: 50px;
-        background-color: rgb(240, 204, 137);
-        text-align: center;
-        line-height: 50px;
-    }
+.counter2 {
+  margin: 20px 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #f0cc89;
+  text-align: center;
+  line-height: 50px;
+}
+/*# sourceMappingURL=test2.css.map */
