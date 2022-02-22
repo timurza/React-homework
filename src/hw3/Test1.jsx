@@ -43,7 +43,7 @@ class Test1 extends React.Component {
                     Class component
                 </div>
                 <div>
-                    <button onClick = {this.buttonHandler}>Press</button>
+                    <button className = 'test' onClick = {this.buttonHandler}>Press</button>
                 </div>
                 <div className = "counter">
                     {this.state.s1}

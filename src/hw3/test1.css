@@ -1,4 +1,4 @@
-button{
+.test{
 width: 100px;
 height: 50px;
 border: 2px solid green;
@@ -10,7 +10,7 @@ transition: 0.3s;
 
 }
 
-button:hover{
+.test:hover{
     background-color: rgb(84, 41, 124);
 }
 
