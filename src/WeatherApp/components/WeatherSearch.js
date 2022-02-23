@@ -14,6 +14,7 @@ const WeatherSearch = (/* props */) => {
             </form>
         </div>
     )
+    
 }
 
 export default WeatherSearch;

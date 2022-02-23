@@ -4,12 +4,12 @@ import '../styles/weather-data.scss';
 
 const WeatherData = (/* {weather} */) => {
     /* const {temp, humidity, pressure} = weather; */
-    const {weather} = useContext(Context);
+    const {weather, city} = useContext(Context);
     const {temp, humidity, pressure} = weather;
     return(
         <div className = "weather-data">
             <p className='weather__tagline'>Weather for
-            <span className='weather-data__city'>Minsk</span></p>
+            <span className='weather-data__city'>{city}</span></p>
             <div className='weather-data__container'>
                 <span className='weather-data__property'>
                     <p className='weather-data__title'>Temperature</p>
